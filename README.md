@@ -8,5 +8,5 @@ cd C:\Users\Pau\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-ard
 Leer flash:
 avrdude "-CC:\Users\Pau\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf" -v -V -patmega2560 -cwiring "-PCOM21" -b115200 -D "-Uflash:r:backup_flash.hex:i"
 
-Leer eeprom:
+Leer eeprom:
 avrdude "-CC:\Users\Pau\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf" -v -V -patmega2560 -cwiring "-PCOM21" -b115200 -D "-Ueeprom:r:backup_eeprom.hex:i"
